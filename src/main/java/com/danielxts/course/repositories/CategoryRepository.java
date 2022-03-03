@@ -6,5 +6,10 @@ import com.danielxts.course.entities.Category;
 
 public interface CategoryRepository extends JpaRepository<Category, Long> {
 	
+	//void saveAll(List<Category> asList);
 
 }
+	
+	
+
+
